@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    height: 50vh;
+    color: white;
+}
+
+.prev{
+    position: absolute;
+    border-color: rgb(red, green, blue);
+    top: 30%;
+    user-select: none;
+    transition: 0.8s ease;
+    margin-top: 15%;
+
+}
+.next{
+    position: absolute;
+    border-color: rgb(red, green, blue);
+    top: 30%;
+    user-select: none;
+    transition: 0.8s ease;
+    margin-top: 15%; 
+}
+.next{
+    right: 28%;
+}
+.prev{
+    left: 28%;
+}
+.next:hover:hover{
+    background-color:rgba(red, green, blue, alpha) (0000.8);
+
+}
+.prev:hover{
+    background-color:rgba(red, green, blue, alpha) (0000.8); 
+}
+.customer-reviews{
+text-align: center;
+margin-top: 30%;
+}
+.customer-reviews{
+    animation-name: fade;
+    animation: 1s;
+}
+/* @keyframes customer-reviews{
+    from{opacity:;}
+    to{opacity: 1;}
+} */
+/* .reviews{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+} */
+
+/* .lg1{
+    margin-right: 20%;
+    margin-top: -90%;
+    position: absolute;
+    margin-left: 39%;
+    width: 90%;
+} */
+ .lg1{
+    position: absolute;
+    margin-top: -13cm;
+    margin-left: 21cm;
+
+ }
+ .lg1 img{
+    width: 70%;
+ }
+ .review{
+    margin-top:-82% ;
+    margin-left: 23cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    position: fixed;
+ }

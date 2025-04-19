@@ -1,0 +1,111 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.events{
+    position: relative;
+    display: inline-block;
+    
+
+}
+.events img{
+    margin-left: 8%;
+    
+    
+
+}
+#event1{
+    margin-left: 1%;
+    margin-top: -4%;
+    
+    
+}
+#event2{
+    margin-left: 1%;
+    margin-top: -4%;
+    
+}
+#event3{
+    margin-left: -10%;
+    margin-top: -4%;
+}
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    justify-content: center;
+    margin-top: -35%;
+    margin-right:25%;
+    text-align: center;
+    margin-left: -5%;
+    
+    
+    
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: whitesmoke;
+    font-size: 300%;
+    
+
+}
+p{
+    color: rgb(252, 246, 246);
+    font-size: 80%;
+    line-height: 0px;
+    margin-top: -5px;
+
+}
+p2{
+    color: rgb(253, 236, 230);
+    font-size: 100%;
+}
+p3{
+    color: whitesmoke;
+    font-size: 150%;
+}
+.lg1{
+    margin-right: 20%;
+    margin-top: -90%;
+    position: absolute;
+    margin-left: 39%;
+    width: 90%;
+}
+/* nav ul{
+    list-style: none;
+    display: flex;
+   gap: 1cm;
+   border: 1px solid black;
+   background-color: black;
+   color: whitesmoke;
+   font-size: 180%;
+   border-radius: 50px;
+   width: 55%;
+    
+   position: fixed;
+   margin-bottom: 50%;
+   padding: 2%;
+ }
+ .navigation-bar{
+    margin-top: 40%;
+    margin-left: 20%;
+    
+
+ }
+
+ nav ul a{
+    text-decoration: none;
+    color: whitesmoke;
+
+ }
+ .reservations{
+    border:1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 1px;
+    background-color: grey;
+ } */
