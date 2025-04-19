@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <div class="reviews">
+        <div class="lg1">
+            <a href="index.html"><img src="Images/logo.svg"></a>
+        </div>
+        
+            <div class="customer-reviews">
+                <q>This place is run by educated, innovative &creative people!The architectural layoult,setting
+                    ambience,<br>
+                    lighting,cutlery: servings, design; has been impeccably well thought out! Even thewash rooms were<br>
+                    excellent! The food was AWESOME! This is suprising considering the fact we were there on a Saturday
+                    night<br>
+                    & they almost had no space!We were extremy well serviced too! Rare to find such finesse in Kenya!
+                    You<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; must go visit them !</q>
+                    <span>Irfan Virji<br>KITISURU</span>
+            </div>
+            <div class="customer-reviews">
+                <q>Such a fantastic restaurant, I plan on being a regular here. The food is amazing the atmosphere is do
+                    nice and <br>
+                    the servive is exeptional. I pray you are able to visit them at least once so you can understand what
+                    I'm saying.<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10/10.Recommendes dishes: Steak must go visit
+                    them! </q>  
+                    <span>Paul Kamau<br>KITISURU</span>
+            </div>
+            <div class="customer-reviews">
+                <q>Best place to eat out. If you want to have this palce is perfect. The food is fantasticonly<br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; be carefull the portions are bigger then you would expect.</q>
+                    <span>Vladimiro Stivali<br>KITISURU</span>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next"   onclick="plusSlides(1)">&#10095;</a>
+
+            <script>
+                let slides1=1;
+                showSlides(slides);
+                function plusSlides(n){
+                    showSlides(slides1 +n);
+                }
+                function showSlides(n){
+                    let i;
+                    let slides=document.getElementsByClassName("customer-reviews");
+                    if(n>slides.length){slides1-=1}
+                    if(n<1){slides1=slides.length}
+                    for(i=0;i<slides.length;i++){
+                        slides[i].style.display="none"
+                    }
+                    slides[slides1-1].style.display="block"
+                }
+            </script>
+        
+
+    </div>
+    <div class="review"><h1>Reviews</h1></div>
+    
+</body>
+</html>
+
+
+
