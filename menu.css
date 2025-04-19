@@ -69,6 +69,11 @@ p6{
     margin-top: -20cm;
     width: 90%;
 }
+.logo1 img{
+    width: 20%;
+    margin-top: 2cm;
+    margin-left: 0.4cm;
+}
 
 
 @media only screen and (max-width:800px) and (min-width:540px){

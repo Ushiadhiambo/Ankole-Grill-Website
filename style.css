@@ -111,7 +111,7 @@ animation-delay: 15s;
  }
  .fade-element{
     opacity: 0;
-    animation: fadeInOut 2s infinite;
+    animation: fadeInOut 2s infinite forwards;
  }
  .welcome{
     margin-top: 1cm;
@@ -120,7 +120,7 @@ animation-delay: 15s;
  .discover{
     margin-top: -19cm;
  }
- 
+
 
 
 
